@@ -7,3 +7,4 @@ print $DNA,"\n";
 print $RNA,"\n";
 print $revcom,"\n";
 
+
