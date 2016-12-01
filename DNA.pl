@@ -1,3 +1,4 @@
+#!/usr/bin/perl -w
 $DNA ='ATCG';
 $RNA =$DNA;
 $RNA =~s/T/U/gi;
