@@ -15,7 +15,7 @@ $count_of_A=0;
 $count_of_T=0;
 $count_of_C=0;
 $count_of_G=0;
-$error     =0;
+$errors    =0;
 foreach $base (@DNA){
     if($base eq 'A'){++$count_of_A;}
  elsif($base eq 'T'){++$count_of_T;}
