@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-print"Print type the filename of the DNA sequanence data:";
+print"Please type the filename of the DNA sequanence data:";
 $DNA_filename=<STDIN>;
 chomp $DNA_filename;
 unless(-e $DNA_filename){
@@ -17,7 +17,7 @@ $count_of_A=0;
 $count_of_T=0;
 $count_of_C=0;
 $count_of_G=0;
-$error     =0;
+$errors    =0;
 for($position;$position<length$DNA;++$position){
 $base=substr($DNA,$position,1);
     if($base eq 'A'){++$count_of_A;}
