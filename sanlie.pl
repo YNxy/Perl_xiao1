@@ -1,4 +1,4 @@
- sub codon2aa{
+ sub codon3aa{
  my($codon)=@_;
  $codon=us $codon;
  my(%genetic_code) = (
